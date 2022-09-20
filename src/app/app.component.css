@@ -1,0 +1,391 @@
+.header-bg {
+  background-image: url('../assets/images/banner_bg.svg');
+  background-size: cover;
+  z-index: 5;
+  background-position: bottom center;
+  height: 840px;
+}
+
+.super-bg {
+  background-image: url('../assets/images/super_franchisee.png');
+  background-size: 50% 100%;
+  background-position: right center;
+}
+
+.bg-cover {
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.about-icons {
+  width: 60px
+}
+
+.advantage-bg {
+  background-image: url('../assets/images/super_franchisee.png');
+  background-size: 35% 70%;
+  background-position: center;
+}
+
+.advantage-title {
+  font-size: 18px;
+}
+
+.advantage-border {
+  border: 1px solid rgb(191, 196, 201);
+  box-shadow: 1px 3px 10px 1px lightgrey;
+}
+
+.sub-header {
+  width: 40%;
+  text-align: center;
+  border-bottom: 1px solid #666666;
+  line-height: 0.1em;
+  margin: 50px auto 20px auto;
+}
+
+.sub-header span {
+  background: #fff;
+  padding: 0 10px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #333333;
+}
+
+.benefit {
+  border: 1px solid #333333;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px lightgray;
+  width: auto;
+  margin: 10px;
+  padding: 20px;
+}
+
+.benefit-card {
+  text-align: center;
+  display: flex;
+}
+
+.benefit-card-img {
+  width: 100px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.benefit-card-title {
+  color: #1778F2;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0px;
+}
+
+.benefit-card-mar {
+  margin: 5px 10px;
+}
+
+.benefit-card-text {
+  font-size: 14px;
+  color: #333333;
+  padding: 5px 15px;
+}
+
+.brd-b {
+  border-bottom: 1px dashed black;
+}
+
+.logo {
+  width: 250px;
+}
+
+.banner-img {
+  width: 550px;
+}
+
+.banner-img-mob {
+  width: 250px
+}
+
+.title-1 {
+  font-size: 60px;
+  margin-top: -20px;
+}
+
+.title {
+  font-size: 46px;
+}
+
+.join {
+  font-size: 30px
+}
+
+.fs-16 {
+  font-size: 16px
+}
+
+.fs-26{
+  font-size: 26px;
+}
+
+.pad-10{
+  padding: 10px;
+}
+
+.marb {
+  margin-bottom: 60px;
+}
+
+.padt {
+  padding-top: 60px;
+}
+
+.super-icon {
+  width: 100px;
+}
+
+.pillar-icon {
+  width: 115px;
+}
+
+.pillar-text {
+  font-size: 20px
+}
+
+.pillar-desp {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.pillar-border {
+  border: 1px solid rgb(191, 196, 201);
+  border-radius: 10px;
+  box-shadow: 1px 3px 10px 1px lightgrey;
+}
+
+.advantage-icon {
+  font-size: 20px
+}
+
+.retailer-icon {
+  width: 300px;
+}
+
+.type-icon {
+  width: 350px;
+}
+
+.about {
+  /* margin-top: -75px; */
+}
+
+.arrow-right {
+  position: absolute;
+  width: 140px;
+  top: -55px;
+  right: -20px;
+}
+
+.arrow-left {
+  position: absolute;
+  width: 140px;
+  top: -40px;
+  left: -20px;
+}
+
+.arrow-right-down {
+  position: absolute;
+  width: 70px;
+  top: 160px;
+  right: 15px;
+}
+
+.arrow-left-down {
+  position: absolute;
+  width: 70px;
+  top: 150px;
+  left: 15px;
+}
+
+.containe {
+  padding-bottom: 425px;
+  background-image: url(../assets/images/footer.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom center;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+@media(max-width:750px) {
+  .logo {
+    width: 150px;
+  }
+
+  .sub-header {
+    width: 100%;
+  }
+
+  .header-bg {
+    height: 940px;
+  }
+
+  .pillar-icon {
+    width: 80px;
+  }
+
+  .about {
+    margin-top: 80px;
+  }
+
+  .about-icons {
+    width: 45px
+  }
+
+  .super-icon {
+    width: 75px;
+  }
+  
+  .banner-img {
+    margin-top: 5px;
+    width: 350px;
+  }
+
+  .img {
+    min-width: 1000px;
+  }
+
+  .img-scroll {
+    overflow: scroll;
+  }
+
+  .containe {
+    padding-bottom: 350px;
+    background-size: auto;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+}
+
+/* bg bubbles css */
+
+.bubbles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.bubble {
+  position: absolute;
+  bottom: -100px;
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 50%;
+  opacity: 0.5;
+  animation: rise 10s infinite ease-in;
+}
+
+.bubble:nth-child(1) {
+  width: 40px;
+  height: 40px;
+  left: 10%;
+  animation-duration: 8s;
+}
+
+.bubble:nth-child(2) {
+  width: 20px;
+  height: 20px;
+  left: 20%;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+
+.bubble:nth-child(3) {
+  width: 50px;
+  height: 50px;
+  left: 35%;
+  animation-duration: 7s;
+  animation-delay: 2s;
+}
+
+.bubble:nth-child(4) {
+  width: 80px;
+  height: 80px;
+  left: 50%;
+  animation-duration: 11s;
+  animation-delay: 0s;
+}
+
+.bubble:nth-child(5) {
+  width: 35px;
+  height: 35px;
+  left: 55%;
+  animation-duration: 6s;
+  animation-delay: 1s;
+}
+
+.bubble:nth-child(6) {
+  width: 45px;
+  height: 45px;
+  left: 65%;
+  animation-duration: 8s;
+  animation-delay: 3s;
+}
+
+.bubble:nth-child(7) {
+  width: 90px;
+  height: 90px;
+  left: 70%;
+  animation-duration: 12s;
+  animation-delay: 2s;
+}
+
+.bubble:nth-child(8) {
+  width: 25px;
+  height: 25px;
+  left: 80%;
+  animation-duration: 6s;
+  animation-delay: 2s;
+}
+
+.bubble:nth-child(9) {
+  width: 15px;
+  height: 15px;
+  left: 70%;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+
+.bubble:nth-child(10) {
+  width: 90px;
+  height: 90px;
+  left: 25%;
+  animation-duration: 10s;
+  animation-delay: 2s;
+}
+
+@keyframes rise {
+  0% {
+    bottom: -100px;
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translate(100px);
+  }
+
+  100% {
+    bottom: 1080px;
+    transform: translateX(-200px);
+  }
+}
